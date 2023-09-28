@@ -1,0 +1,30 @@
+{
+  "name": "disquera",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^7",
+    "@sap/cds-hana": "^2.0.0",
+    "@sap/hana-client": "^2.18.22",
+    "@sap/xssec": "^3.3.4",
+    "express": "^4",
+    "passport": "^0.6.0"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1",
+    "@sap/cds-dk": "^7",
+    "@types/node": "*",
+    "typescript": ">=4.3.5",
+    "@cap-js/cds-typer": "^0"
+  },
+  "scripts": {
+    "start": "cds-ts watch",
+    "typer": "npx @cap-js/cds-typer /home/user/projects/disquera/db/schema.cds --outputDirectory /home/user/projects/disquera"
+  },
+  "imports": {
+    "#cds-models/*": "./@cds-models/*/index.js"
+  }
+}

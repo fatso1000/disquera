@@ -1,0 +1,5 @@
+ID,horas,musico_id,disco_id,user,createdAt,promocion
+1,26,1,1,Franco,2023-02-18T15:30:00.000Z,true
+2,2,2,2,Manco,2023-12-18T15:30:00.000Z,false
+3,13,3,1,Pelo,2023-09-18T15:30:00.000Z,true
+4,1,1,2,Sed,2023-10-18T15:30:00.000Z,false
